@@ -1,19 +1,108 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="vi">
+
 <head>
+
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <meta name="viewport"
+          content="width=device-width, initial-scale=1.0">
+
     <title>Admin Dashboard</title>
+
+    <link rel="stylesheet" href="style.css">
+
 </head>
-<body>
-    <h2>Bảng điều khiển Admin</h2>
-    <div>
-        <p>Xin chào, Admin!</p>
-        <ul>
-            <li><a href="#">Quản lý người dùng</a></li>
-            <li><a href="#">Cài đặt hệ thống</a></li>
-            <li><a href="/logout">Đăng xuất</a></li>
-        </ul>
+
+<body class="admin-page">
+
+
+    <header class="admin-header">
+
+        <h2>ADMIN SYSTEM</h2>
+
+        <a href="login.html" class="logout">
+            Đăng xuất
+        </a>
+
+    </header>
+
+
+    <div class="admin-container">
+
+
+        <aside class="sidebar">
+
+            <h3>MENU</h3>
+
+            <a href="#">Trang chủ</a>
+
+            <a href="#">Người dùng</a>
+
+            <a href="#">Sản phẩm</a>
+
+            <a href="#">Đơn hàng</a>
+
+            <a href="#">Thống kê</a>
+
+            <a href="#">Cài đặt</a>
+
+        </aside>
+
+
+        <main class="admin-content">
+
+            <h1>Dashboard</h1>
+
+            <p>
+                Chào mừng bạn đến với trang quản trị.
+            </p>
+
+
+            <div class="cards">
+
+                <div class="card">
+
+                    <h3>Người dùng</h3>
+
+                    <p>1,245</p>
+
+                </div>
+
+
+                <div class="card">
+
+                    <h3>Sản phẩm</h3>
+
+                    <p>328</p>
+
+                </div>
+
+
+                <div class="card">
+
+                    <h3>Đơn hàng</h3>
+
+                    <p>856</p>
+
+                </div>
+
+
+                <div class="card">
+
+                    <h3>Doanh thu</h3>
+
+                    <p>125M</p>
+
+                </div>
+
+            </div>
+
+        </main>
+
     </div>
+
+
 </body>
+
 </html>
