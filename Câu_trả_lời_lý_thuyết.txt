@@ -1,0 +1,11 @@
+1. Thẻ <ul> (Unordered List) được dùng để tạo danh sách không có thứ tự, các mục thường được đánh dấu bằng các dấu chấm tròn. Trong khi đó, thẻ <ol> (Ordered List) dùng để tạo danh sách có thứ tự, các mục sẽ được tự động đánh số như 1, 2, 3.
+
+2. Thẻ <li> (List Item) không thể sử dụng độc lập được. Thẻ này bắt buộc phải được đặt bên trong thẻ <ul> hoặc <ol> để định nghĩa một mục con trong danh sách. Nếu để đứng một mình là sai cấu trúc HTML chuẩn.
+
+3. Thuộc tính href nằm trong thẻ <a>, được dùng để chứa đường dẫn (URL) trỏ tới trang đích mà bạn muốn chuyển hướng tới khi người dùng click vào.
+
+4. Thuộc tính target="_blank" sẽ ra lệnh cho trình duyệt mở đường link liên kết đó trong một tab mới, giúp người dùng không bị đóng mất trang web hiện tại đang xem.
+
+5. Thẻ <img> nên có thuộc tính alt vì nếu hình ảnh bị lỗi không tải được, dòng chữ này sẽ hiện ra thay thế để báo cho người dùng biết nội dung bức ảnh. Ngoài ra nó còn hỗ trợ tốt cho SEO và các phần mềm đọc màn hình.
+
+6. Để biến một hình ảnh thành một liên kết, chúng ta cần lồng thẻ <img> vào bên trong cặp thẻ mở <a> và thẻ đóng </a>.
